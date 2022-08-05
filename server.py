@@ -11,11 +11,11 @@ s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 #Permitindo reusar o endereco e a porta
 s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
 
-##print("Comecando conexao na porta 445")
-
+#Comecando conexao na porta 445
 s.bind(('', 445))
 s.listen(5)
 
+#Tratando a mensagem de erro quando sai do programa (CTRL + C)
 try:
 	while True:
 		print("Aguardando conexao do cliente...\n")
