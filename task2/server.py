@@ -3,7 +3,6 @@
 import socket
 import sys
 from termcolor import colored
-from datetime import datetime
 
 #Criando uma conexao TCP
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -22,7 +21,6 @@ try:
 		con, client = s.accept()
 		print("---------------------------------")
 		print('Conectado por ->', client)
-		print(format(datetime.now()))
 		while True:
 			msg = con.recv(1024)
 			if not msg: break
