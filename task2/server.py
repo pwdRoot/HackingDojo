@@ -26,7 +26,6 @@ try:
 			if not msg: break
 			print(colored(msg.decode(), 'green'))
 			print("---------------------------------\n")
-			#while msg.lower() in 'dojo':
 		con.close()
 except KeyboardInterrupt:
     sys.exit(0)
