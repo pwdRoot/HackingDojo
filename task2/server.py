@@ -26,7 +26,6 @@ try:
 		while True:
 			msg = con.recv(1024)
 			if not msg: break
-			print(s.handshake.address)
 			print(colored(msg.decode(), 'green'))
 			print("---------------------------------\n")
 			#while msg.lower() in 'dojo':
