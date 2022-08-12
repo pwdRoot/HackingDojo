@@ -1,14 +1,9 @@
 # Desafio HackingDojo
 
-<div>
-  <a href="https://github.com/pwdRoot"></a>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pwdRoot&layout=compact&langs_count=7&theme=dracula"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=pwdRoot&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
-</div>
+![alt text](https://becodoexploit.com/HackingDojo/img/logo.png)
 
-
-### Todas as tarefas do desafio Hacking Dojo
-#### Desafio: https://becodoexploit.com/HackingDojo/
+### TODAS AS TAREFAS REALIZADAS NO DESAFIO:
+#### https://becodoexploit.com/HackingDojo/
 
 ## Anotações e Observações
 
