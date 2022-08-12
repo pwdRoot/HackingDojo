@@ -21,7 +21,7 @@
 - Inseri um "Try/except" para resolver a mensagem de erro que dava quando eu parava a execução com "CTRL + C" (Não é obrigatório usar).;
 
 ### Task 3:
-- Tentei pegar os IPs usando a função Socket, contudo não obtive sucesso, então decidi remover todos os caracteres que não fazem parte do IP com o código abaixo:
+- Tentei pegar somente o IP que a função Socket coletava, contudo não obtive sucesso, então decidi remover todos os caracteres que não fazem parte do IP com o código abaixo:
 ```python
 clientIP = re.search(r'\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}', str(client)).group()
 ```
