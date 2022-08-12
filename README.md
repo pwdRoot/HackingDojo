@@ -28,7 +28,7 @@ clientIpReplace = clientIP.replace(".", "-")
 ### Task 4:
 - Através da pesquisa identifiquei que todos os dados de login ficam armazenados no arquivo "Login Data.db"
 - Acessei o arquivo .db usando sqlite3.
-- Para automatizar o acesso ao arquivo com as credenciais, inseri o comando "os.path.expanduser('~')" que adiciona o caminho raiz do computador que está executando o script (Exemplo: "C:\Users\fulando")
+- Para automatizar o acesso ao arquivo com as credenciais, inseri o comando "os.path.expanduser('~')", que adiciona o caminho raiz do computador que está executando o script (Exemplo: "C:\Users\fulano")
 - Tive dificuldade para interpretar o caracter "\" sem dar erro, então través de uma pesquisa vi que é possível usar o caraceter "\\" para que o Python reconhece a String inteira.
 - Foi adicionado um For para apresentar de forma organizada as credenciais, conforme pede o desafio.
 
