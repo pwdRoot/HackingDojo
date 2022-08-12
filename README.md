@@ -31,4 +31,7 @@ clientIpReplace = clientIP.replace(".", "-")
 ```
 
 ### Task 4:
+- Foi adicionado um For para apresentar de forma organizada as credenciais, conforme pede o desafio.
+
+### Taks 5:
 - Em execução...
