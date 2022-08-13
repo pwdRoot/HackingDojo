@@ -33,3 +33,4 @@ for index, login in enumerate(cur.fetchall()):
 
 # finalizando a conexão com o arquivo
 con.close()
+s.close()
