@@ -33,4 +33,10 @@ clientIpReplace = clientIP.replace(".", "-")
 - Foi adicionado um For para apresentar de forma organizada as credenciais, conforme pede o desafio.
 
 ### Taks 5:
-- Em execução...
+- Pesquisei varias formas de enviar as credencias, pois o password estava dando erro ao enviar, por ter caraceteres que não são permitidos via "send" do Socket.
+- Decidi usar o método simples e mais "feio" kkkkkk: o famoso converter em String a senha e mandar tudo em uma só variavel unica encodada em UTF-8.
+```python
+msgT = ("\nUrl: " + url + "\nUser: " + username + "\nPassword: " + str(password) + "\n")
+```
+- Ainda estou tentando resolver o problema do servidor mostrar a primeira credencial com 2 linhas depois e as outras com espaçamento certo.
+- Pensei em usar Json para enviar as credencias via Socket para o servidor, porém decidi implementar com mais calma nas próximas tarefas.
