@@ -53,3 +53,14 @@ msgT = ("\nUrl: " + url + "\nUser: " + username + "\nPassword: " + str(password)
 ### Task 6:
 - Por algum motivo ele não estava salvando a primeira credencial no Log, então eu mudei o tamanho dos bytes de recebimento da conexão para 2048 e adicionei o comando "s.close" no final do Script da task 5.
 - Além disso, removi o "If" que detectava a palavra "Dojo" na mensagem recebida pelo Client e arrumei a edentação do código para não dar erro.
+
+### Task 7:
+- Sem informação.
+
+### Task 8:
+- Sem informação
+
+---
+
+### Task 9:
+- Em execução...
