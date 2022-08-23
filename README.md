@@ -9,7 +9,7 @@
 - Pycharm (https://www.jetbrains.com/pt-br/pycharm/download/#section=windows): para programar em Windows e executar os Scripts.
 - Mousepad (https://pkg.kali.org/pkg/mousepad): para editar os códigos em Python no Kali Linux.
 - Python3 (https://www.kali.org/docs/general-use/python3-transition/): para executar os códigos em Python.
-- Google kkkkk: para pesquisar e estudar bastante.
+- Google: para pesquisar e estudar bastante.
 
 ## Anotações e Observações
 
