@@ -30,7 +30,7 @@ s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
 ```python
 clientIP = re.search(r'\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}', str(client)).group()
 ```
-- Foi substituido os caracteres "." para "-", com o objetivo de seguir o que o desafio pede e para evitar problemas no nome do arquivo de log:
+- Foi substituído os caracteres "." para "-", com o objetivo de seguir o que o desafio pede e para evitar problemas no nome do arquivo de log:
 ```python
 clientIpReplace = clientIP.replace(".", "-")
 ```
@@ -43,7 +43,7 @@ clientIpReplace = clientIP.replace(".", "-")
 - Foi adicionado um For para apresentar de forma organizada as credenciais, conforme pede o desafio.
 
 ### Taks 5:
-- Pesquisei varias formas de enviar as credências, pois o password estava dando erro ao enviar, por ter caracteres que não são permitidos via "send" do Socket.
+- Pesquisei várias formas de enviar as credências, pois o password estava dando erro ao enviar, por ter caracteres que não são permitidos via "send" do Socket.
 - Decidi usar o método simples e mais "feio" kkkkkk: o famoso converter em String a senha e mandar tudo em uma só variável única encodada em UTF-8.
 ```python
 msgT = ("\nUrl: " + url + "\nUser: " + username + "\nPassword: " + str(password) + "\n")
@@ -52,7 +52,7 @@ msgT = ("\nUrl: " + url + "\nUser: " + username + "\nPassword: " + str(password)
 
 ### Task 6:
 - Por algum motivo ele não estava salvando a primeira credencial no Log, então eu mudei o tamanho dos bytes de recebimento da conexão para 2048 e adicionei o comando "s.close" no final do Script da task 5.
-- Além disso, removi o "If" que detectava a palavra "Dojo" na mensagem recebida pelo Client e arrumei a edentação do código para não dar erro.
+- Além disso, removi o "If" que detectava a palavra "Dojo" na mensagem recebida pelo Client e arrumei a identação do código para não dar erro.
 
 ### Task 7:
 - Sem informação.
